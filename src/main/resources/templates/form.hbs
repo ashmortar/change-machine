@@ -1,0 +1,14 @@
+{{#partial "content"}}
+
+    <h1>Please Enter a Dollar Amount:</h1>
+    <form action='/changeReturn'>
+        <div class="form-group">
+            <label for="amount">Amount</label>
+            <input id="amount" name="amount" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Go!</button>
+    </form>
+
+{{/partial}}
+
+{{> layout.hbs}}
